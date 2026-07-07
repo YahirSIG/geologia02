@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="background-shapes">
         <div class="shape shape-1"></div>
@@ -16,7 +18,7 @@
 
     <main class="app-container">
         <header class="app-header">
-            <h1>Geología Avanzada</h1>
+            <h1>Geología</h1>
             <p>Examen de Segundo Cuatrimestre</p>
         </header>
 
@@ -24,7 +26,8 @@
             <div class="card glass">
                 <h2>¿Listo para poner a prueba tus conocimientos?</h2>
                 <p>Este examen abarca exploración, muestreo de geomateriales y estructuras geológicas.</p>
-                <input type="text" id="user-name" class="name-input" placeholder="Ingresa tu nombre para comenzar..." autocomplete="off">
+                <input type="text" id="user-name" class="name-input" placeholder="Ingresa tu nombre para comenzar..."
+                    autocomplete="off">
                 <div class="stats">
                     <div class="stat-item">
                         <span class="stat-value">20</span>
@@ -46,7 +49,7 @@
                 </div>
                 <span id="question-counter">Pregunta 1 de 10</span>
             </div>
-            
+
             <div class="card glass question-container">
                 <h2 id="question-text">¿Pregunta?</h2>
                 <div id="options-container" class="options-grid">
@@ -67,7 +70,8 @@
                         <span id="score-text">0.0</span>
                     </div>
                 </div>
-                <p style="font-size: 1.1rem; color: var(--text-secondary); margin-top: -1rem; margin-bottom: 2rem;">Calificación Final (0-10)</p>
+                <p style="font-size: 1.1rem; color: var(--text-secondary); margin-top: -1rem; margin-bottom: 2rem;">
+                    Calificación Final (0-10)</p>
                 <p id="feedback-text">¡Buen trabajo!</p>
                 <div class="result-details">
                     <p>Respuestas correctas: <span id="correct-count" class="highlight-green">0</span></p>
@@ -80,4 +84,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
